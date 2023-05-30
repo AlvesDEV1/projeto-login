@@ -81,14 +81,33 @@ div#formulario > p {
 form > div.campo {
     background-color: #411536;
     display: block;
-    width: 100%;
+    width: 99%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > i {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #e4eeed;
+    font-size: 1em;
+    width: calc(100% - 44.5px);
+    height: 100%;
+    transform: translateY(-10px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit] {
