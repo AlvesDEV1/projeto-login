@@ -79,7 +79,7 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: #411536;
+    background-color: none;
     display: block;
     width: 99%;
     height: 40px;
@@ -92,7 +92,7 @@ div.campo > label {
 }
 
 div.campo > i {
-    color: white;
+    color: black;
     font-size: 2em;
     width: 40px;
     padding: 5px;
